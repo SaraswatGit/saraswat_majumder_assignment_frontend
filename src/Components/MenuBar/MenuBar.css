@@ -1,0 +1,16 @@
+.menu-bar
+{
+display:flex;
+flex-direction: row;
+width: 400px;
+justify-content: space-between;
+}
+.menu-bar-item {
+padding: 6px;
+border-radius: 10%;
+}
+.menu-bar-item:hover {
+    background-color: lightgray;
+    cursor: pointer;
+
+}

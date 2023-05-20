@@ -1,0 +1,40 @@
+.toolbar {
+    background-color: #edf2fa;
+    width: 99%;
+    height:41px;
+    border-radius: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+.toolbar-icon {
+padding: 5px;
+border-radius: 100%;
+}
+.toolbar-icon:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+.dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fontsizebox {
+    height: 23px;
+    width: 23px;
+    text-align: center;
+    border: 1px solid black;
+}
+.editing {
+    margin-left: 20%;
+    margin-right: 30px;
+    border-radius: 28px;
+    padding: 5px;
+}
+.editing:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}

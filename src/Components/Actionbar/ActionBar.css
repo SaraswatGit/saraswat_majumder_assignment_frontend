@@ -1,0 +1,55 @@
+.google-meet{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height:45px ;
+    margin-left: 18px;
+}
+.google-meet:hover {
+    background-color: lightgray;
+    border-radius: 28px;
+    }
+ .comment-icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 45px;
+        width: 45px;
+    }
+.comment-icon:hover{
+    background-color: lightgray;
+    border-radius: 100%;
+}
+.action-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.share-button {
+    background-color: #c2e7ff;
+    border-radius: 28px;
+    width: 85px;
+    padding: 9px;
+    font-weight:500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 18px;
+}
+.share-button:hover {
+    background-color: rgb(85, 192, 228);
+    cursor: pointer;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
+}
+.profile-pic {
+  height:53px;
+  width: 53px;
+  margin-left: 18px;
+  border-radius: 100%;
+}
+.apps-bar {
+ display: flex;
+ flex-direction: column;
+}
