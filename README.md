@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+## Components Used :
+> For clearer understanding and cleaner code I have broken down the app to  small components and put the in the components folder.
+- ActionBar - This components contains various actions that can be performed with the doc - Comment , Share in a video , Share with others etc
+- AppsBar - This component consist of links to various google apps .
+- ToolBar - This component helps user apply various formatting to their text editor . (For now only the font-size is made functional using react state management)
+- Header - This is the top most part of the page it contains the Action Bar , Menubar , Title etc .
+- MenuBar - This contains list of menus with actions that can be performed
+- Title - This displays the name of the document .
+- Editor - This is the component where user enters,edits,views the text .
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tech Used :
+ The project is written using React Framework .
+ The project used MUI icons for various icons used in the project .
 
 ## Available Scripts
 
@@ -10,14 +20,6 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -39,32 +41,4 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# saraswat_majumder_assignment_frontend
